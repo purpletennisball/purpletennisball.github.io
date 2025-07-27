@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
     background: #8200FB;
     background: linear-gradient(180deg ,rgba(130, 0, 251, 1) 0%, rgba(49, 0, 183, 1) 100%);
-    font-family: "Arial";
+    font-family: "Inter", "Arial";
     height: 100vh;
     overflow: hidden;
     display: grid;
@@ -25,6 +27,7 @@ body {
 
 .name {
     font-size: 40px;
+    font-weight: 500;
 }
 
 .social {
