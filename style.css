@@ -1,0 +1,77 @@
+body {
+    background: #8200FB;
+    background: linear-gradient(180deg ,rgba(130, 0, 251, 1) 0%, rgba(49, 0, 183, 1) 100%);
+    font-family: "Arial";
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto min-content;
+    margin: 0px;
+}
+
+.pfp {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    height: 120px;
+}
+
+.social > img {
+    height: 70%;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    margin: 10px;
+}
+
+.github {
+    background: #000000;
+    background: linear-gradient(180deg ,rgba(0, 0, 0, 1) 0%, rgba(50, 50, 50, 1) 100%);
+}
+
+.discord {
+    background: #3F4FFF;
+    background: linear-gradient(180deg ,#3F4FFF 0%, #5865F2 100%);
+}
+
+.bluesky {
+    background: #006FE2;
+    background: linear-gradient(180deg ,#006FE2 0%, #1185FE 100%);
+}
+
+.youtube {
+    background: #FF0027;
+    background: linear-gradient(180deg ,#FF0027 0%, #F2585B 100%);
+}
+
+.reddit {
+    background: #FC6D00;
+    background: linear-gradient(180deg ,#FC6D00 0%, #FF4500 100%);
+}
